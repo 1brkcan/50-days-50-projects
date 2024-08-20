@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Caprasimo&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Pacifico&family=Roboto&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Roboto+Slab&family=Rubik&family=Satisfy&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: #fff;
+    overflow-x: hidden;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+
+}
+
+.counter{
+    font-size: 50px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+
+}
+
+span{
+    letter-spacing: 5px;
+
+}
+
+@media(max-width:1200px){
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+    .counter{
+        font-size: 30px;
+        margin-top: 5px;
+        letter-spacing: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

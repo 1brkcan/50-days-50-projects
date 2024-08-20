@@ -1,0 +1,77 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --nav-font-color: #000;
+    --nav-bg-color: #fff;
+    --cont-font-color: rgb(190, 23, 190);
+    --cont-bg-color: rgb(142, 240, 43);
+    
+}
+
+.dark-theme{
+
+    --nav-font-color: #fff;
+    --nav-bg-color: #000;
+    --cont-font-color: rgb(142, 240, 43);
+    --cont-bg-color: rgb(190, 23, 190);
+
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--nav-font-color);
+    background-color: var(--nav-bg-color);
+    padding: 1rem;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+i{
+    cursor: pointer;
+}
+
+h3{
+    font-size: 3rem;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--cont-font-color);
+    background-color: var(--cont-bg-color);
+    transition: all 0.5s ease;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

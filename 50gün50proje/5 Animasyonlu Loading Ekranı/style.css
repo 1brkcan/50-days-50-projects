@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Electrolize&family=IBM+Plex+Serif&family=Open+Sans:ital,wght@0,400;1,600&family=Oswald&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Satisfy&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg{
+    background: no-repeat center/cover url(bicycle-g88fc7ecc7_1280.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0);
+}
+
+.loading{
+    color:#7dcb91;
+    font-size: 80px;
+}

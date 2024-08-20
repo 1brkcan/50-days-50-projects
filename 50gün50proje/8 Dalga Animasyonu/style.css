@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Satisfy&display=swap');
+
+
+:root{
+    --red-color:rgb(237, 52, 52);
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.container {
+    background-color: rgb(246, 242, 242);
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+.container h1{
+    color: var(--red-color);
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+.container a{
+    text-decoration: none;
+    color: #608fa3;
+
+}
+
+.form-control{
+    position: relative;
+    margin: 2rem 0;
+
+}
+
+.form-control input{
+    border: 0;
+    border-bottom:2px solid #e8e8e8;
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+
+}
+
+.form-control input:focus,
+.form-control input:valid{
+    outline: none;
+    border-bottom: 2px solid #999;
+}
+
+/* ! valid html bolumundeki required yani gereklidir islemini zorunlu kilar  */
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: var(--red-color);
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: inherit;
+
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.btn:active{
+    transform: scale(0.97);
+
+}
+
+.text{
+    font-size: 15px;
+    margin-top: 4rem;
+    
+}
+
+.text a:hover{
+    text-decoration: none;
+    text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+ .form-control label{
+    position: absolute;
+    top: 0.8rem;
+    left: 0;
+
+ }
+
+ .form-control label span{
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.7, -0.6, 0.3, 1.55);
+
+ }
+
+ .form-control input:focus + label span, 
+ .form-control input:valid + label span{
+    color: #999;
+    transform: translateY(-30px);
+
+ }
+
+

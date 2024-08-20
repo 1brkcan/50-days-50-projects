@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Satisfy&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Bricolage Grotesque', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(120deg, rgb(236, 184, 184) 50%, rgb(222, 154, 154) 30%, rgb(248, 161, 161) 40%);
+
+}
+
+.container{
+    border: 3px solid #fff;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    box-shadow: 5px -5px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+h2{
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    color: rgb(242, 70, 70);
+}
+
+p{
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+
+strong{
+    color: #000;
+    display: block;
+    padding: 8px 0 0 0;
+    font-size: 0.9rem;
+    
+}
+
+.code-container{
+    margin: 3rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.code{
+    font-family: inherit;
+    width: 70px;
+    height: 140px;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+.code::-webkit-outer-spin-button, 
+.code::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+.code:focus{
+    outline: none;
+
+}
+
+.code:valid{
+    color: rgb(255, 0, 0);
+    border-color:red;
+
+}
+
+small{
+    color: #fff;
+    
+}
+
+small a{
+    font-weight: bolder;
+    color: #000;
+    
+}
+
+.back{
+    margin: 1.5rem 0 0.8rem 0 ;
+
+}
+
+.back a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(242, 70, 70);
+    margin: 0 20px;
+    
+}
+
+.back span{
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+

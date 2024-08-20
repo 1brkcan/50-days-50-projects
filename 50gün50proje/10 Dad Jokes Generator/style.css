@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Caprasimo&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter', cursive;
+    background-color: rgba(200, 101, 102, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.container{
+    background-color: rgba(200, 150, 102, 103);
+    border-radius: 10px;
+    max-width: 100%;
+    width: 800px;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+h1{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    color: #fff;
+    
+
+}
+
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+    color: rgb(184, 59, 14);
+
+}
+
+.btn{
+    background-color: rgba(200, 101, 102, 103);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+
+.btn:active{
+    transform: scale(0.95);
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

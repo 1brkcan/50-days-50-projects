@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Caprasimo&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Pacifico&family=Roboto&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Roboto+Slab&family=Rubik&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+    --green-color: #11aa0b;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+    color: var(--green-color);
+    font-weight: bold;
+
+}
+
+.content{
+    font-size: 20px;
+
+}
+
+.speed{
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(218, 171, 171, 0.1);
+    padding: 10px 20px;
+
+}
+
+input{
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green-color);
+    color: #fff;
+    text-align: center;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

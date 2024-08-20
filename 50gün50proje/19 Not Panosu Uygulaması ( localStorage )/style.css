@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Caprasimo&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Pacifico&family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Roboto+Slab&family=Rubik&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: url(cork.png);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    
+}
+
+.add{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #fff;
+    background-color: rgb(225, 71, 71);
+    border: none;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: bold;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+
+}
+
+.add:hover{
+    color: rgb(225, 71, 71);
+    background-color: #fff;
+    transition: background-color 0.6s ease;
+
+}
+
+.add:active{
+    transform: scale(0.98);
+
+}
+
+.note{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 30px 20px;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.note .tools{
+    background-color: rgb(225, 71, 71);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+
+}
+
+.note img{
+    width: 35px;
+    position: absolute;
+    padding: 5px;
+
+}
+
+.note .tools button{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 7px 10px;
+
+}
+
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 20rem;
+    width: 100%;
+    padding: 15px;
+    resize: none;
+
+}
+
+
+.main{
+    padding: 20px;
+
+}
+
+
+
+.hidden{
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

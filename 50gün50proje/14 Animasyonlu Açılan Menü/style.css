@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Caprasimo&family=Dancing+Script:wght@700&family=Electrolize&family=IBM+Plex+Serif&family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald&family=Pacifico&family=Roboto&family=Roboto+Mono:ital,wght@0,100;0,400;1,100;1,300&family=Roboto+Slab&family=Rubik&family=Satisfy&display=swap');
+
+:root {
+    --orange--: #fb8500;
+    --yellow--: #ffb703;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #fb8500 50%, #ffb703 50%);
+
+}
+
+nav {
+    background-color: #fff;
+    padding: 20px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: width 0.7s linear;
+
+}
+
+nav.active {
+    width: 450px;
+     
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    transition: width 0.7s linear;
+
+}
+
+nav.active ul {
+    width: 100%;
+
+}
+
+nav ul li {
+    transform: rotateY(0deg);
+    opacity: 0;
+    transition: transform 0.7s linear, opacity 0.7s linear;
+
+}
+
+nav.active ul li {
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+
+nav ul a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+
+}
+
+.icon {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.icon .line {
+    background-color: var(--yellow--);
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: transform 0.7s linear;
+}
+
+.icon .line2 {
+    top: auto;
+    bottom: 10px;
+}
+
+nav.active .icon .line1 {
+    transform: rotate(-765deg) translateY(5.5px);
+
+}
+
+nav.active .icon .line2 {
+    transform: rotate(765deg) translateY(-5.5px);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
